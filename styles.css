@@ -79,7 +79,7 @@ body:after{content:'';position:fixed;z-index:30;left:0;top:0;width:var(--page-pr
 .hero-depth i:nth-child(4){width:min(28vw,350px);border-color:rgba(255,255,255,.2);transform:translate(-50%,-50%) translateZ(80px);animation:depthPulse 5s ease-in-out infinite reverse}
 .hero #hero-canvas{opacity:.7;transform:scale(calc(1 + var(--hero-progress,0) * .08));transform-origin:center}
 .hero-aurora{opacity:.88}
-.hero-photo{position:absolute;z-index:2;inset:0;background:linear-gradient(180deg,rgba(3,12,29,.48),rgba(3,12,29,.68)),linear-gradient(90deg,rgba(4,16,38,.68),rgba(4,16,38,.18),rgba(4,16,38,.54)),url('/teknolya-yeni-kurumsal-site/assets/teknolya-office.png') center 46%/cover no-repeat;opacity:calc(var(--hero-in,0) * .62);transform:scale(calc(1.08 - var(--hero-in,0) * .04));will-change:opacity,transform;pointer-events:none}
+.hero-photo{position:absolute;z-index:2;inset:0;background:linear-gradient(180deg,rgba(3,12,29,.48),rgba(3,12,29,.68)),linear-gradient(90deg,rgba(4,16,38,.68),rgba(4,16,38,.18),rgba(4,16,38,.54)),url('/assets/teknolya-office.png') center 46%/cover no-repeat;opacity:calc(var(--hero-in,0) * .62);transform:scale(calc(1.08 - var(--hero-in,0) * .04));will-change:opacity,transform;pointer-events:none}
 .hero-scroll-message{z-index:5;text-shadow:0 10px 34px rgba(0,8,24,.58)}
 @keyframes depthOrbit{to{rotate:360deg}}
 @keyframes depthPulse{0%,100%{scale:.92;opacity:.35}50%{scale:1.08;opacity:.8}}
