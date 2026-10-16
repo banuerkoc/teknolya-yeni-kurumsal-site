@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.teknolya.com.tr/sitemap.xml
